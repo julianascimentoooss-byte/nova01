@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wstorm Internet - Sua conexão de alta velocidade</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --primary: #0d6efd;
+            --secondary: #6c757d;
+            --dark: #212529;
+            --light: #f8f9fa;
+            --accent: #6610f2;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1563014959-7aaa83350992?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            padding: 120px 0;
+            color: white;
+        }
+        
+        .section-padding {
+            padding: 80px 0;
+        }
+        
+        .bg-light-alt {
+            background-color: #f8f9fa;
+        }
+        
+        .icon-box {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        
+        .service-card {
+            transition: transform 0.3s;
+            border: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            padding: 10px 25px;
+        }
+        
+        .btn-primary:hover {
+            background-color: #0b5ed7;
+            border-color: #0a58ca;
+        }
+        
+        .contact-info li {
+            margin-bottom: 15px;
+        }
+        
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 60px 0 30px;
+        }
+        
+        .social-icons a {
+            color: white;
+            font-size: 1.5rem;
+            margin-right: 15px;
+            transition: color 0.3s;
+        }
+        
+        .social-icons a:hover {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h2 class="fw-bold text-primary">Wstorm Internet</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#planos">Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center" id="inicio">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Internet de Alta Velocidade para sua Casa ou Empresa</h1>
+            <p class="lead mb-5">Conecte-se com o mundo em velocidade ultrarrápida com a Wstorm Internet</p>
+            <a href="#planos" class="btn btn-primary btn-lg">Conheça nossos planos</a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section-padding" id="sobre">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">Sobre a Wstorm Internet</h2>
+                    <p class="lead">Somos uma empresa especializada em fornecer serviços de internet de alta qualidade para residências e empresas.</p>
+                    <p>Desde nossa fundação, nos dedicamos a oferecer a melhor experiência de conexão para nossos clientes, com suporte técnico especializado e atendimento personalizado.</p>
+                    <p>Nossa infraestrutura de ponta garante estabilidade e velocidade em todos os nossos planos, proporcionando a melhor relação custo-benefício do mercado.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1560132578-855b6d962c36?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Equipe Wstorm" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="section-padding bg-light-alt" id="servicos">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Nossos Serviços</h2>
+                <p class="lead">Oferecemos soluções completas em conectividade</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card service-card h-100 text-center p-4">
+                        <div class="icon-box">
+                            <i class="bi bi-house-door"></i>
+                        </div>
+                        <h4>Internet Residencial</h4>
+                        <p>Planos de internet fibra óptica para sua casa com alta velocidade para streaming, games e trabalho remoto.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card h-100 text-center p-4">
+                        <div class="icon-box">
+                            <i class="bi bi-building"></i>
+                        </div>
+                        <h4>Internet Empresarial</h4>
+                        <p>Soluções dedicadas para empresas com maior estabilidade, suporte prioritário e garantia de uptime.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card h-100 text-center p-4">
+                        <div class="icon-box">
+                            <i class="bi bi-wifi"></i>
+                        </div>
+                        <h4>Wi-Fi de Alta Performance</h4>
+                        <p>Instalação e configuração de redes Wi-Fi para melhor cobertura em todos os ambientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planos -->
+    <section class="section-padding" id="planos">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Nossos Planos</h2>
+                <p class="lead">Escolha o plano ideal para suas necessidades</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-header py-4 bg-primary text-white">
+                            <h3>Plano Básico</h3>
+                            <h4 class="fw-bold">R$ 99,90/mês</h4>
+                        </div>
+                        <div class="card-body p-4">
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> 100 Mbps de velocidade</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Download e Upload simétricos</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Wi-Fi incluso</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Instalação gratuita</li>
+                            </ul>
+                            <a href="#contato" class="btn btn-outline-primary">Contratar agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center border-primary shadow">
+                        <div class="card-header py-4 bg-primary text-white position-relative">
+                            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">Mais Popular</span>
+                            <h3>Plano Premium</h3>
+                            <h4 class="fw-bold">R$ 149,90/mês</h4>
+                        </div>
+                        <div class="card-body p-4">
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> 300 Mbps de velocidade</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Download e Upload simétricos</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Wi-Fi de alta performance</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Instalação gratuita</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Suporte prioritário</li>
+                            </ul>
+                            <a href="#contato" class="btn btn-primary">Contratar agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-header py-4 bg-primary text-white">
+                            <h3>Plano Empresarial</h3>
+                            <h4 class="fw-bold">R$ 299,90/mês</h4>
+                        </div>
+                        <div class="card-body p-4">
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> 600 Mbps de velocidade</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Download e Upload simétricos</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Wi-Fi empresarial</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Instalação gratuita</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Suporte 24/7</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Garantia de 99,9% de uptime</li>
+                            </ul>
+                            <a href="#contato" class="btn btn-outline-primary">Contratar agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section-padding bg-light-alt" id="contato">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Entre em Contato</h2>
+                <p class="lead">Estamos à disposição para tirar suas dúvidas</p>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="nome" class="form-label">Nome completo</label>
+                                <input type="text" class="form-control" id="nome" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="telefone" class="form-label">Telefone</label>
+                                <input type="tel" class="form-control" id="telefone">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="assunto" class="form-label">Assunto</label>
+                                <select class="form-select" id="assunto">
+                                    <option selected>Selecione...</option>
+                                    <option value="1">Contratação de serviços</option>
+                                    <option value="2">Suporte técnico</option>
+                                    <option value="3">Financeiro</option>
+                                    <option value="4">Outros</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label for="mensagem" class="form-label">Mensagem</label>
+                                <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h4 class="mb-4">Informações de Contato</h4>
+                        <ul class="list-unstyled">
+                            <li class="d-flex mb-3">
+                                <i class="bi bi-geo-alt-fill text-primary me-3 fs-5"></i>
+                                <div>
+                                    <h5 class="fw-bold">Endereço</h5>
+                                    <p>Rua Do Gravador 421, Lote 4, Quadra 1<br>Guaratiba, Rio de Janeiro - RJ<br>CEP: 23035-370</p>
+                                </div>
+                            </li>
+                            <li class="d-flex mb-3">
+                                <i class="bi bi-telephone-fill text-primary me-3 fs-5"></i>
+                                <div>
+                                    <h5 class="fw-bold">Telefone</h5>
+                                    <p>(21) 3456-7890</p>
+                                </div>
+                            </li>
+                            <li class="d-flex mb-3">
+                                <i class="bi bi-envelope-fill text-primary me-3 fs-5"></i>
+                                <div>
+                                    <h5 class="fw-bold">E-mail</h5>
+                                    <p>contato@wstorminternet.com.br</p>
+                                </div>
+                            </li>
+                            <li class="d-flex mb-3">
+                                <i class="bi bi-clock-fill text-primary me-3 fs-5"></i>
+                                <div>
+                                    <h5 class="fw-bold">Horário de Atendimento</h5>
+                                    <p>Segunda a Sexta: 8h às 18h<br>Sábado: 9h às 13h</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h3 class="fw-bold mb-4">Wstorm Internet</h3>
+                    <p>Oferecendo a melhor experiência em conectividade para você e sua empresa.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="fw-bold mb-4">Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#inicio" class="text-white text-decoration-none">Início</a></li>
+                        <li class="mb-2"><a href="#sobre" class="text-white text-decoration-none">Sobre nós</a></li>
+                        <li class="mb-2"><a href="#servicos" class="text-white text-decoration-none">Serviços</a></li>
+                        <li class="mb-2"><a href="#planos" class="text-white text-decoration-none">Planos</a></li>
+                        <li class="mb-2"><a href="#contato" class="text-white text-decoration-none">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-4">CNPJ</h5>
+                    <p>27.027.576/0001-07</p>
+                    <p>Wstorm Consultoria e Servicos de Internet LTDA</p>
+                </div>
+            </div>
+            <hr class="my-5 bg-light">
+            <div class="text-center">
+                <p>&copy; 2023 Wstorm Internet. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
